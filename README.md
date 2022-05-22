@@ -23,6 +23,11 @@ Terima kasih dan semoga bermanfaat!
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI
 
 # MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
+LANGKAH PENGERJAAN:
+<div style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">import matplotlib.pyplot as plt
+import numpy as np
+import sys</div>
+
 PEMBAHASAN:
 1. Analisis Hasil Grafik Yanga Didapat
    Berdasarkan pengolahan data yang dilakukan sebelumnya terlihat bahwasannya persebaran polutan yang ada pada scenario di skema 1, skema 2, skema 3, dan skema 4 hanya memiliki perbedaan pada arah persebarannya saja. Hal ini dikarenakan pada scenario di skema 1, skema 2, skema 3, dan skema 4 memiliki nilai theta yang berbeda-beda. Namun jika dilihat secara seksama, keempat skema tersebut memiliki beberapa karakteristik yang dapat dikatakan sama, dimana pada awal terlihat polutan tersebut sangat pekat berada pada suatu titik hingga lama kelamaan mulai tersebar namun memiliki konsentrasi yang menurun. Hal ini disebabkan persebaran polutan dipengaruhi oleh angin dan arus. Hal ini diperkuat oleh Adriani (2020), dimana angin merupakan faktor pembawa polutan dalam menyebarkan polutan ke tempat lain. Angin tersebut turut ikut berpengaruh terhadap konsentrasi polutan yang ada di perairan.
