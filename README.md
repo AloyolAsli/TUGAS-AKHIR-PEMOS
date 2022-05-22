@@ -22,12 +22,12 @@ Terima kasih dan semoga bermanfaat!
 
 
 
-# MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI
+📌# MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI
 
 
 
 
-# MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
+📌# MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
 **LANGKAH PENGERJAAN:**
 
 ```
@@ -153,18 +153,17 @@ Condition='+str(Ic),fontsize=10)
  #print('Nilai CFL:' +str(cfl) + ' dengan arah:' +str(theta))
   ```
   
- **Hasil Grafik Adveksi-Difusi 2 Dimensi**
+**Hasil Grafik Adveksi-Difusi 2 Dimensi**
 Scenario I (θ = 86)
-https://user-images.githubusercontent.com/79469992/169707639-061388c7-8c0a-4c7a-abdd-666154d50589.mp4
+
 
 Scenario II (θ = 146)
-https://user-images.githubusercontent.com/79469992/169707706-7267e76f-729d-4657-a7ee-19d3275a7896.mp4
 
 Scenario III (θ = 221)
-https://user-images.githubusercontent.com/79469992/169707710-24ad13a0-5acd-4681-92e0-22803837cbbe.mp4
+
 
 Scenario IV (θ = 401)
-https://user-images.githubusercontent.com/79469992/169707713-34ef441b-a3bc-45d2-89d7-563d8926f9a2.mp4
+
 
 
 
@@ -174,6 +173,6 @@ PEMBAHASAN:
 
 3. Pengaplikasian Dari Persamaan Adveksi-Difusi 2 Dimensi 
 
-# MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI
+📌# MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI
 
-# MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI
+📌# MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI
