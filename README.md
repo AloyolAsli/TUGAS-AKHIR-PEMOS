@@ -154,13 +154,12 @@ Condition='+str(Ic),fontsize=10)
   ```
   
 **Hasil Grafik Adveksi-Difusi 2 Dimensi**
-Scenario I (θ = 86)
 
+Scenario I (θ = 86)
 
 Scenario II (θ = 146)
 
 Scenario III (θ = 221)
-
 
 Scenario IV (θ = 401)
 
