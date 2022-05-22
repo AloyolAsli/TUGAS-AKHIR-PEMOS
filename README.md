@@ -24,9 +24,9 @@ Terima kasih dan semoga bermanfaat!
 
 # MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
 LANGKAH PENGERJAAN:
-<div style="-moz-border-radius: 11px; -webkit-border-radius: 11px; background-color: #D9E4E4; border-radius: 11px; border: 5px solid #999; padding: 11px; t-align: left;">import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt
 import numpy as np
-import sys</div>
+import sys'''
 
 PEMBAHASAN:
 1. Analisis Hasil Grafik Yanga Didapat
