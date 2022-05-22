@@ -6,7 +6,7 @@ Terima kasih dan semoga bermanfaat!
 # ANGGOTA KELOMPOK 1
 1. Aloysius Dimas Sanjaya Saliyo          26050120130056  Oseanografi A
 
-2. Fairus Jamil Rizqullah                 26050120140103  Oseanografi B
+2. Fairus Jamil Rizqullah
 
 3. Dafina Amadita Shaquilla               26050120140168  Oseanografi A
 
@@ -16,13 +16,16 @@ Terima kasih dan semoga bermanfaat!
 
 6. Bagas Priambodo
 
-7. Priska E. Lumban Batu 26050120120031 Oseanografi A
+7. Priska E. Lumban Batu
 
 8. Laurentia Levina Pramestanti           26050120140126 Oseanografi B
 
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI
 
 # MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
+PEMBAHASAN:
+1. Hasil Grafik yanga didapat
+2. 
 
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI
 
