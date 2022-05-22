@@ -82,7 +82,77 @@ px1 = int(px/dx)
 py1 = int(py/dy)
 ```
 
+**Menyederhanakan Fungsi**
+```
+lx = u*dt/dx
+ly = v*dt/dy
+ax = ad*dt/dx**2
+ay = ad*dt/dy**2
+```
 
+**Memasukkan Syarat Kestabilan CFL**
+Ini dimasukkan untuk menentukan seberapa besar nilai stabilitas dari model yang dibangun
+```
+cfl = (2*ax + 2*ay + abs(lx) + abs(ly)) #Syarat Kestabilan CFL
+```
+
+**Pembuatan Grid**
+```
+x_grid = np.linspace(0-dx, x+dx, Nx+2) #Ghostnode pada boundary
+y_grid = np.linspace(0-dx, y+dy, Ny+2) #Ghostnode pada boundary
+t = np.linspace(0, Tend, Nt+1)
+x_mesh,y_mesh = np.meshgrid(x_grid,y_grid)
+F = np.zeros((Nt+1, Ny+2, Nx+2))
+#Kondisi Awal(Initial Condition)
+F[0,py1,px1] = Ic
+#%%
+```
+
+**Memasukkan Iterasi dan Diskritisasi dari Persamaan Adveksi-Difusi 2 Dimensi**
+```
+#Iterasi
+for n in range (0, Nt):
+ for i in range (1,Ny+1):
+ for j in range(1,Nx+1):
+ F[n+1,i,j]=((F[n,i,j]*(1-abs(lx)-abs(ly))) + \
+ (0.5*(F[n,i-1,j]*(ly+abs(ly)))) + \
+ (0.5*(F[n,i+1,j]*(abs(ly)-ly))) + \
+ (0.5*(F[n,i,j-1]*(lx+abs(lx)))) + \
+ (0.5*(F[n,i,j+1]*(abs(lx)-lx))) + \
+ (ay*(F[n,i+1,j]-2*(F[n,i,j])+F[n,i-1,j])) + \
+ (ax*(F[n,i,j+1]-2*(F[n,i,j])+F[n,i,j-1]))) #Diskritisasi
+ ```
+ 
+ **Memasukkan Syarat Batas Dari Pembuatan Grafik**
+ ```
+ #Syarat Batas (Dirichlet Boundary Condition)
+ F[n+1,0,:] = 0 #BC Bawah
+ F[n+1,:,0] = 0 #BC Kiri
+ F[n+1,Ny+1,:] = 0 #BC Atas
+ F[n+1,:,Nx+1] = 0 #BC Kanan
+  ```
+  
+ **Hasil Pemodelan**
+  ```
+  #Output Gambar
+ plt.clf()
+ plt.pcolor(x_mesh, y_mesh, F[n+1,:,:],cmap = 'jet',shading ='auto',edgecolors = 'k')
+ cbar = plt.colorbar(orientation = 'vertical', shrink = 0.95, extend = 'both')
+ cbar.set_label(label='Concentration', size = 8)
+ #plt.clim(0,100)
+ plt.title('Dafina Amadita Shaquilla_26050120140168 \n t='+str(round(dt*(n+1),3))+', Initial
+Condition='+str(Ic),fontsize=10)
+ plt.xlabel('x_grid',fontsize=9)
+ plt.ylabel('y_grid',fontsize=9)
+ plt.axis([0, x, 0, y])
+ #plt.pause(0.01)
+ plt.savefig(str(n+1)+'.jpg', dpi = 300)
+ plt.pause(0.01)
+ plt.close()
+ print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
+ #print('Nilai CFL:' +str(cfl) + ' dengan arah:' +str(theta))
+  ```
+ 
 PEMBAHASAN:
 1. Analisis Hasil Grafik Yang Didapat
    Berdasarkan pengolahan data yang dilakukan sebelumnya terlihat bahwasannya persebaran polutan yang ada pada scenario di skema 1, skema 2, skema 3, dan skema 4 hanya memiliki perbedaan pada arah persebarannya saja. Hal ini dikarenakan pada scenario di skema 1, skema 2, skema 3, dan skema 4 memiliki nilai theta yang berbeda-beda. Namun jika dilihat secara seksama, keempat skema tersebut memiliki beberapa karakteristik yang dapat dikatakan sama, dimana pada awal terlihat polutan tersebut sangat pekat berada pada suatu titik hingga lama kelamaan mulai tersebar namun memiliki konsentrasi yang menurun. Hal ini disebabkan persebaran polutan dipengaruhi oleh angin dan arus. Hal ini diperkuat oleh Adriani (2020), dimana angin merupakan faktor pembawa polutan dalam menyebarkan polutan ke tempat lain. Angin tersebut turut ikut berpengaruh terhadap konsentrasi polutan yang ada di perairan.
