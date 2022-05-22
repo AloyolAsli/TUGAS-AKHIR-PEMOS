@@ -4,21 +4,21 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 Terima kasih dan semoga bermanfaat!
 
 # ANGGOTA KELOMPOK 1
-1. Aloysius Dimas Sanjaya Saliyo          26050120130056  Oseanografi A
+1. Aloysius Dimas Sanjaya Saliyo          26050120130056 A
 
 2. Fairus Jamil Rizqullah
 
-3. Dafina Amadita Shaquilla               26050120140168  Oseanografi A
+3. Dafina Amadita Shaquilla               26050120140168 A
 
 4. Vanessa Kurniawan
 
-5. Khana Nadira Sastradjaja               26050120140166  Oseanografi B
+5. Khana Nadira Sastradjaja               26050120140166 B
 
 6. Bagas Priambodo
 
 7. Priska E. Lumban Batu
 
-8. Laurentia Levina Pramestanti           26050120140126 Oseanografi B
+8. Laurentia Levina Pramestanti           26050120140126 B
 
 
 
