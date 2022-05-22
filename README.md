@@ -24,8 +24,10 @@ Terima kasih dan semoga bermanfaat!
 
 # MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI
 PEMBAHASAN:
-1. Hasil Grafik yanga didapat
-2. 
+1. Analisis Hasil Grafik Yanga Didapat
+   Berdasarkan pengolahan data yang dilakukan sebelumnya terlihat bahwasannya persebaran polutan yang ada pada scenario di skema 1, skema 2, skema 3, dan skema 4 hanya memiliki perbedaan pada arah persebarannya saja. Hal ini dikarenakan pada scenario di skema 1, skema 2, skema 3, dan skema 4 memiliki nilai theta yang berbeda-beda. Namun jika dilihat secara seksama, keempat skema tersebut memiliki beberapa karakteristik yang dapat dikatakan sama, dimana pada awal terlihat polutan tersebut sangat pekat berada pada suatu titik hingga lama kelamaan mulai tersebar namun memiliki konsentrasi yang menurun. Hal ini disebabkan persebaran polutan dipengaruhi oleh angin dan arus. Hal ini diperkuat oleh Adriani (2020), dimana angin merupakan faktor pembawa polutan dalam menyebarkan polutan ke tempat lain. Angin tersebut turut ikut berpengaruh terhadap konsentrasi polutan yang ada di perairan.
+
+3. Pengaplikasian Dari Persamaan Adveksi-Difusi 2 Dimensi 
 
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI
 
