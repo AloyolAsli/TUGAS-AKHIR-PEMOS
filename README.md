@@ -10,7 +10,7 @@ Terima kasih dan semoga bermanfaat!
 
 3. Dafina Amadita Shaquilla               26050120140168 A
 
-4. Vanessa Kurniawan
+4. Vanessa Kurniawan                      26050120140092 B
 
 5. Khana Nadira Sastradjaja               26050120140166 B
 
