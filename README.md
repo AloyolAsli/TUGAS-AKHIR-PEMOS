@@ -14,7 +14,7 @@ Terima kasih dan semoga bermanfaat!
 
 5. Khana Nadira Sastradjaja               26050120140166 B
 
-6. Bagas Priambodo
+6. Bagas Priambodo                        26050120140143 B
 
 7. Priska E. Lumban Batu
 
