@@ -238,3 +238,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 plt.show()
 '''
 
+
+
+## **UCAPAN TERIMA KASIH**
+Demikian _repository_ Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Apabila ada kesalahan dalam penulisan kami memohon maaf. Kami juga berterima kasih kepada Kakak-Kakak Asisten yang telah mendampingi dan membimbing serta teman-teman oseanografi 2020 yang telah bekerja keras selama berjalannya Praktikum Pemodelan Oseanografi. 
