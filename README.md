@@ -166,7 +166,7 @@ Scenario IV (θ = 401)
 
 
 
-PEMBAHASAN:
+**PEMBAHASAN:**
 
 **Analisis Hasil Grafik Yang Didapat**
 
