@@ -172,11 +172,11 @@ Scenario IV (θ = 401)
 
 Berdasarkan pengolahan data yang dilakukan sebelumnya terlihat bahwasannya persebaran polutan yang ada pada scenario di skema 1, skema 2, skema 3, dan skema 4 hanya memiliki perbedaan pada arah persebarannya saja. Hal ini dikarenakan pada scenario di skema 1, skema 2, skema 3, dan skema 4 memiliki nilai theta yang berbeda-beda. Namun jika dilihat secara seksama, keempat skema tersebut memiliki beberapa karakteristik yang dapat dikatakan sama, dimana pada awal terlihat polutan tersebut sangat pekat berada pada suatu titik hingga lama kelamaan mulai tersebar namun memiliki konsentrasi yang menurun. Hal ini disebabkan persebaran polutan dipengaruhi oleh angin dan arus. Hal ini diperkuat oleh Adriani (2020), dimana angin merupakan faktor pembawa polutan dalam menyebarkan polutan ke tempat lain. Angin tersebut turut ikut berpengaruh terhadap konsentrasi polutan yang ada di perairan.Berikut saya berikan hasil pengolahan pada saat awal dan akhir pergerakan polutan
 
-*AWAL*
+**Model ke-1**
 
 ![1](https://user-images.githubusercontent.com/106020126/169736983-d2ef66c3-03aa-4513-b07b-bff9187ff835.jpg)
 
-*AKHIR*
+**Model Ke-212**
 
 ![212](https://user-images.githubusercontent.com/106020126/169737098-41773676-fd05-44f6-af82-16b94f0d63ce.jpg)
 
