@@ -319,6 +319,7 @@ Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
 
 **a. Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu**
 
+![1](https://user-images.githubusercontent.com/105528467/170018403-71369062-1ae6-43b3-bd81-bbdcf18d20b7.png)
 
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
