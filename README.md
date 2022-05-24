@@ -276,6 +276,8 @@ Berdasarkan pengolahan data yang dilakukan sebelumnya terlihat bahwasannya perse
 
 ![212](https://user-images.githubusercontent.com/106020126/169737098-41773676-fd05-44f6-af82-16b94f0d63ce.jpg)
 
+**KEMUDIAN Disini Saya Lampirkan Vidio Full Pergerakan Polutan Yang Telah Dimodelkan Sebelumnya**
+
 https://user-images.githubusercontent.com/106020126/170086053-06175c70-8cc9-4c0c-b06c-5ac56386a3b8.mp4
 
 **Pengaplikasian Dari Persamaan Adveksi-Difusi 2 Dimensi**
