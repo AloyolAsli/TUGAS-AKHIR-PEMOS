@@ -282,9 +282,9 @@ https://user-images.githubusercontent.com/106020126/170086053-06175c70-8cc9-4c0c
 
 **Pengaplikasian Dari Persamaan Adveksi-Difusi 2 Dimensi**
 
-Dalam memodelkan suatu fenomena gejala alam dapat menggunakan berbagai macam persamaan. Persamaan matematika yang memodelkan fenomena gejala alam adalah persamaan Adveksi-Difusi atau yang sering disebut dengan persamaan transpor. Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transpor polutan. Triatmojo (1999) menjelaskan bahwa persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. Banyak penelitian telah dilakukan tentang penggunaan metode beda hingga dalam menyelesaikan persamaan Adveksi-Diffusi untuk mempelajari fenomena transfer polutan. Kebanyakan penelitian yang telah dilakukan tersebut mempelajari penyebaran polutan pada perairan dengan domain yang teratur dan menggunakan koefisien yang konstan, sedangkan persoalan yang berada disekitar kita menyatakan sebaliknya. Walaupun demikian, metode beda hingga teteap menyediakan solusi numerik yang akurat dan dapat dipakai untuk mendapatkan solusi numerik yang diinginkan (Kusuma, 2014). Dinamika transfer polutan pada perairan ini tentu sangat menarik untuk dikaji, agar kita bisa memprediksi perilaku polutan pada waktu tertentu dan menganalisis akibat dari situasi yang berbeda terhadap perilaku tersebut (Hutomo, et al., 2019).
+Dalam memodelkan suatu fenomena/gejala alam dapat menggunakan berbagai macam persamaan. Salah satu persamaan matematika yang memodelkan fenomena gejala alam adalah persamaan Adveksi-Difusi atau yang sering disebut dengan persamaan transpor. Persamaan Adveksi-Difusi adalah persamaan matematis yang sengaja didesain untuk mempelajari fenomena transpor polutan. Triatmojo (1999) menjelaskan bahwa persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. Menurut Alman, (2020), fenomena aliran dan transport polutan merupakan gejala alam yang penting untuk dipelajari karena mempunyai pengaruh terhadap beberapa studi rekayasa. Banyak penelitian telah dilakukan tentang penggunaan metode beda hingga dalam menyelesaikan persamaan Adveksi-Diffusi untuk mempelajari fenomena transfer polutan. Kebanyakan penelitian yang telah dilakukan tersebut mempelajari penyebaran polutan pada perairan dengan domain yang teratur dan menggunakan koefisien yang konstan, sedangkan persoalan yang berada disekitar kita menyatakan sebaliknya. Walaupun demikian, metode beda hingga teteap menyediakan solusi numerik yang akurat dan dapat dipakai untuk mendapatkan solusi numerik yang diinginkan (Kusuma, 2014). Dinamika transfer polutan pada perairan ini tentu sangat menarik untuk dikaji, agar kita bisa memprediksi perilaku polutan pada waktu tertentu dan menganalisis akibat dari situasi yang berbeda terhadap perilaku tersebut (Hutomo, et al., 2019).
    
-Menurut Alman, (2020). Persamaan matematika yang memodelkan fenomena gejala alam adalah persamaan Adveksi-Difusi atau yang sering disebut dengan persamaan transpor. Fenomena aliran dan transport polutan merupakan gejala alam yang penting untuk dipelajari karena mempunyai pengaruh terhadap beberapa studi rekayasa. Metode beda hingga merupakan salah satu metode yang dapat diterapkan untuk kasus fenomena transport di perairan dangkal dan aliran air tanah yang biasanya dinyatakan dengan persamaan Adveksi -Diffusi 2D karena metode ini dapat memberikan hasil pendekatan yang cukup akurat (Ribal, 2008). Metode beda hingga yang dimodifikasi (digeneralisasikan) ini telah diterapkan di banyak bidang, seperti dalam menganalisis elemen lapisan yang cocok, memecahkan masalah retak bidang, menganalisis pertumbuhan dendritik, kemudian ada pula simulasi numerik pada bidang oseanografi seperi digunakan untuk interaksi gelombang-arus. Metode numerik adalah teknik dasar dimana permasalahan matematika diformulasikan sehingga dapat diselesaikan dengan operasi aritmatika dan logika. Metode numerik ini juga yang mendasari kemudian munculnya persamaan matemati untuk menyelesaikan suatu fenomena alam seperti persebaran polutan. Perkembangan komputer dengan waktu komputasi yang semakin cepat, membuat pemodelan matematika semakin banyak diminati, dengan penerapan metodemetode numerik yang mempermudah dalam menyelesaikan persamaan-persamaan matematis pada model matematika yang telah dibuat. Karena komputer digital unggul dalam melakukan operasi semacam itu, metode numerik kadang disebut sebagai matematika komputer.
+Metode beda hingga merupakan salah satu metode yang dapat diterapkan untuk kasus fenomena transport di perairan dangkal dan aliran air tanah yang biasanya dinyatakan dengan persamaan Adveksi -Diffusi 2D karena metode ini dapat memberikan hasil pendekatan yang cukup akurat (Ribal, 2008). Metode beda hingga yang dimodifikasi (digeneralisasikan) ini telah diterapkan di banyak bidang, seperti dalam menganalisis elemen lapisan yang cocok, memecahkan masalah retak bidang, menganalisis pertumbuhan dendritik, kemudian ada pula simulasi numerik pada bidang oseanografi seperi digunakan untuk interaksi gelombang-arus. Metode numerik adalah teknik dasar dimana permasalahan matematika diformulasikan sehingga dapat diselesaikan dengan operasi aritmatika dan logika. Metode numerik ini juga yang mendasari kemudian munculnya persamaan matemati untuk menyelesaikan suatu fenomena alam seperti persebaran polutan. Perkembangan komputer dengan waktu komputasi yang semakin cepat, membuat pemodelan matematika semakin banyak diminati, dengan penerapan metodemetode numerik yang mempermudah dalam menyelesaikan persamaan-persamaan matematis pada model matematika yang telah dibuat. Karena komputer digital unggul dalam melakukan operasi semacam itu, metode numerik kadang disebut sebagai matematika komputer.
 
 
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI 📌
@@ -453,7 +453,7 @@ fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12,10))
 ax2b = ax2.twinx()
 ```
 
-**Menginput Parameter Grafik Tekanan Udara**
+**Membuat Grafik Tekanan Udara**
 ```
 #Pressure
 ax1.plot(df['time'], df['pressure'], color='black')
@@ -461,7 +461,7 @@ ax1.set_ylabel('Pressure [hPa]')
 fig.suptitle('nama_nim', fontsize=18)
 ```
 
-**Menginput Parameter Gafik Kecepatan, hembusan dan arah angin**
+**Membuat Gafik Kecepatan, hembusan dan arah angin**
 ```
 #Wind speed, gust, direction
 ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
@@ -471,13 +471,12 @@ ax2.set_ylabel('Wind Speed [m/s]')
 ax2b.set_ylabel('Wind Direction')
 ```
 
-**Menginput Parameter Grafik Temperatur Air**
+**Membuat Grafik Temperatur Air**
 ```
 #Water temperature
 ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
 ax3.set_ylabel('Water Temperature [degC]')
 ```
-**Perintah Untuk Menampilkan Grafik**
 ```
 plt.show()
 ```
