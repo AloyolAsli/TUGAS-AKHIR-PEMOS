@@ -192,8 +192,13 @@ Menurut Alman, (2020). Persamaan matematika yang memodelkan fenomena gejala alam
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI 📌
 **Langkah Pengerjaan**
 
+```
+import matplotlib.pyplot as plt
+import numpy as np
+``` 
 **Penginputan Nilai Parameter**
-'''
+
+```
 #Proses Awal
 p = 5000         
 T = 1200         
@@ -212,54 +217,137 @@ L = C*To
 k = 2*pi/L       
 Mmax = int(p//dx)
 Nmax = int(T//dt)`
-''' 
+``` 
+***Penyelesaian Persamaan Hidrodinamika***
+```
+zo = [None for _ in range(Mmax)]
+uo = [None for _ in range(Mmax)]
+
+hasilu = [None for _ in range(Nmax)]
+hasilz = [None for _ in range(Nmax)]
+```
+***Penggunaan perintah looping untuk penyelesaian range untuk nilai uo dan zo***
+```
+for i in range(1, Mmax+1):
+  zo[i-1] = A*np.cos(k*(i)*dx)
+  uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
+for i in range(1, Nmax+1):
+  zb = [None for _ in range(Mmax)]
+  ub = [None for _ in range(Mmax)]
+  zb[0] = A*np.cos(s*(i)*dt)
+  ub[-1] = A*C*np.cos(k*L-s*(i)*dt)/(D+zo[-1])
+  for j in range (1, Mmax):
+    ub[j-1] = uo[j-1]-g*(dt/dx)*(zo[j]-zo[j-1])
+  for k in range(2, Mmax+1):
+    zb[k-1] = zo[k-1]-(D+zo[k-1])*(dt/dx)*(ub[k-1]-ub[k-2])
+    hasilu[i-1] = ub
+    hasilz[i-1] = zb
+  for p in range(0, Mmax):
+    uo[p] = ub[p]
+    zo[p] = zb[p]
+```
+
+***Pembuatan Grafik***
+```
+def rand_col_hex_string():
+  return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}
+
+hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)
+
+fig0, ax0 = plt.subplots(figsize=(12,8))
+for i in range (1, 16):
+  col0 = rand_col_hex_string()
+  line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
+  ax0.legend()
+
+  ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus', title='''Shafina Amalia Yahya_26050120140169
+  Perubahan Kecepatan Arus Dalam Grid Tertentu di sepanjang Waktu''')
+  ax0.grid()
+
+fig1, ax1 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col1= rand_col_hex_string()
+  line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
+  ax1.legend()
+
+  ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di sepanjang Waktu''')
+  ax1.grid()
+
+fig2, ax2 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col2= rand_col_hex_string()
+  line, = ax2.plot(hasilu_np[i-1], c=col2, label=f't={i}')
+  ax2.legend()
+
+  ax2.set(xlabel='Grid', ylabel='Kecepatan Arus', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
+  ax2.grid()
+
+fig3, ax3 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col3= rand_col_hex_string()
+  line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
+  ax3.legend()
+
+  ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Elevasi Muka Air Dalam Waktu Tertentu di Sepanjang Grid''')
+  ax3.grid()
+```
+###Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
+
+`plt.show()`
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
 "LANGKAH PENGERJAAN"
 
-'''
+```
 import matplotlib.pyplot as plt
 from siphon.simplewebservice.ndbc import NDBC
-'''
-'''
+```
+```
 # Get a pandas data frame of all of the observations, meteorological data is the default
 # observation set to query.
 df = NDBC.realtime_observations('46015') #Station ID
 df.head()
-'''
-'''
+```
+```
 # let's make a simple time series plot to checkout what the data look like.
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12,10))
 ax2b = ax2.twinx()
-'''
+```
 
 **Membuat Grafik Tekanan Udara**
-'''
+```
 #Pressure
 ax1.plot(df['time'], df['pressure'], color='black')
 ax1.set_ylabel('Pressure [hPa]')
 fig.suptitle('nama_nim', fontsize=18)
-'''
+```
 
 **Membuat Gafik Kecepatan, hembusan dan arah angin**
-'''
+```
 #Wind speed, gust, direction
 ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
 ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
 ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
 ax2.set_ylabel('Wind Speed [m/s]')
 ax2b.set_ylabel('Wind Direction')
-'''
+```
 
 **Membuat Grafik Temperatur Air**
-'''
+```
 #Water temperature
 ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
 ax3.set_ylabel('Water Temperature [degC]')
-'''
-'''
+```
+```
 plt.show()
-'''
+```
 
 
 
