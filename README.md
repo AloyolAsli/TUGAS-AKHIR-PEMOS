@@ -498,9 +498,11 @@ Stasiun buoy 41009 terletak pada koordinat 28.508 N 80.185 W (28°30'27" N 80°1
 Pada grafik yang telah disediakan oleh NOAA’s NDBC juga menunjukkan adanya anomali, di mana suhu air laut dan kecepatan angin pada tanggal 6 Mei tinggi, sedangkan tekanan atmosfernya rendah. Hal tersebut menunjukkan bahwa hasil model tidak jauh berbeda dengan data yang tersedia pada website NOAA’s NDBC.
 
 **Grafik Suhu Air Laut 5 Hari Terakhir**
+
 ![Grafik Suhu Air Laut 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170068616-2088e113-3a32-43af-826b-6986677ba361.png)
 
 **Grafik Kecepatan Angin 5 Hari Terakhir**
+
 ![Grafik Kecepatan Angin 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170069001-ff47a3c3-95f1-41e2-8759-537d338d6305.png)
 
 
