@@ -42,8 +42,11 @@ Terjadi di sel yang ingin mengambil nutrisi, terjadi di partikel yang punya pola
 
 •	Proses Difusi
 Proses difusi merupakan perpindahan molekul larutan berkonsentrasi tinggi menuju larutan berkonsentrasi rendah tanpa melalui selaput membran. Contoh yang sederhana adalah pemberian gula pada cairan teh tawar. Lambat laun cairan menjadi manis. Contoh lain adalah uap air dari cerek yang berdifusi dalam udara, dimana pada masing-masing zat, kecepatan difusi berbeda-beda.
+
 Proses difusi dalam sistem farmasetik:
+
 𝐽= 𝑑𝑀 𝑆.𝑑𝑡
+
 J = fluks (g/cm2det)
 M = jumlah massa (g atau mol)
 S = luas permukaan (cm2)
@@ -51,7 +54,9 @@ t = waktu (detik)
 
 •	Hukum Pertama Difusi Fick
 Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
+
 𝐽 = −𝐷 𝑑𝑐 𝑑𝑧
+
 D = koefisien difusi (cm2/det)
 C = konsentrasi (g/cm3)x = jarak (cm)
 Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
@@ -64,6 +69,7 @@ Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, se
 
 •	Hukum Difusi Fick
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
+
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
 
 Untuk peristiwa difusi, Adolph Fick mengambil analogi yang menyatakan bahwa: 
