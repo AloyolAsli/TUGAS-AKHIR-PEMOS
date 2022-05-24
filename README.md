@@ -23,14 +23,14 @@ Terima kasih dan semoga bermanfaat!
 
 
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI 📌
-Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. 
-Difusi adalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah. Biasanya permukaan laut lebih panas dari udara di atasnya sehingga terdapat sejumlah panas yang hilang dari laut melalui proses konduksi. Kehilangan tersebut relatif kecil dibanding total panas lautan sehingga pengaruhnya dapat diabaikan, kecuali untuk pencampuran konvektif oleh angin yang memindahkan udara hangat dari permukaan laut. Dengan kata lain luas sebaran polutan panas dari kanal pendingin tergantung pada beberapa faktor yaitu volume air limbah, temperatur air limbah, temperatur ambien air laut dan sirkulasi air laut di lokasi masuknya air limbah ke laut ( Cahyana, 2011).
+   Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. Difusi adalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah. Biasanya permukaan laut lebih panas dari udara di atasnya sehingga terdapat sejumlah panas yang hilang dari laut melalui proses konduksi. Kehilangan tersebut relatif kecil dibanding total panas lautan sehingga pengaruhnya dapat diabaikan, kecuali untuk pencampuran konvektif oleh angin yang memindahkan udara hangat dari permukaan laut. Dengan kata lain luas sebaran polutan panas dari kanal pendingin tergantung pada beberapa faktor yaitu volume air limbah, temperatur air limbah, temperatur ambien air laut dan sirkulasi air laut di lokasi masuknya air limbah ke laut ( Cahyana, 2011).
 •	Jenis-Jenis Difusi
 Difusi dibedakan menjadi dua, yaitu difusi biasa dan khusus. Inilah uraiannya:
 1)	Difusi Biasa
 Sel ingin mengambil nutrisi, atau terjadi pada molekul/partikel hydropobhic (tidak berpolar). Partikel akan langsung berdifusi tanpa memerlukan energi, dan bisa melewati membran langsung.
 2)	Difusi Khusus
 Terjadi di sel yang ingin mengambil nutrisi, terjadi di partikel yang punya polar/ion (hydrophilic). Diperlukan protein yang khusus agar partikel bisa melewati membran.
+
 •	Faktor Mempengaruhi Difusi
 1.	Suhu, makin tinggi difusi makin cepat
 2.	BM makin besar difusi makin lambat
