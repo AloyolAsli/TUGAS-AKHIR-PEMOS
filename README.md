@@ -509,6 +509,7 @@ Pada grafik yang telah disediakan oleh NOAA’s NDBC juga menunjukkan adanya ano
 
 ![Grafik Tekanan Atmosfer 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170069387-c7042ba8-7b9a-4743-931c-320ae8a78697.png)
 
+Sebuah fakta mengenai stasiun buoy 41009 yang dikemukakan oleh Wehof et al. (2014), bahwa stasiun buoy 41009 sempat offline saat terjadi badai besar Sandy pada tahun 2012 dan 2013 karena mengalami kerusakan. Hal tersebut mengakibatkan hilangnya data dari tahun 2004 ketika terjadi Badai Frances dan Jeanne.
 
 ## **UCAPAN TERIMA KASIH**
 Demikian _repository_ Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Apabila ada kesalahan dalam penulisan kami memohon maaf. Kami juga berterima kasih kepada Kakak-Kakak Asisten yang telah mendampingi dan membimbing serta teman-teman oseanografi 2020 yang telah bekerja keras selama berjalannya Praktikum Pemodelan Oseanografi. 
