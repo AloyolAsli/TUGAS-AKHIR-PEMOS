@@ -435,7 +435,7 @@ Hasil model hidrodinamika 1 D pada grafik menunjukkan bahwa garis grafik di awal
 
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
-"LANGKAH PENGERJAAN"
+LANGKAH PENGERJAAN
 
 ```
 import matplotlib.pyplot as plt
@@ -444,7 +444,7 @@ from siphon.simplewebservice.ndbc import NDBC
 ```
 # Get a pandas data frame of all of the observations, meteorological data is the default
 # observation set to query.
-df = NDBC.realtime_observations('46015') #Station ID
+df = NDBC.realtime_observations('41109') #Station ID
 df.head()
 ```
 ```
@@ -485,10 +485,10 @@ plt.show()
 ```
 Studi Kasus: Stasiun Buoy 41009
 ```
-**Lokasi Stasiun Buoy 41109**
+**Lokasi Stasiun Buoy 41009**
 
 ![lokasi](https://user-images.githubusercontent.com/106019440/170066521-e56038b6-9cf7-4584-b04e-6335c6cdfea9.png)
-**Stasiun Buoy 41109**
+**Stasiun Buoy 41009**
 
 ![buoy](https://user-images.githubusercontent.com/106019440/170065954-5928a3a4-863e-4477-888c-ba26d3a41451.jpg)
 
