@@ -16,7 +16,7 @@ Terima kasih dan semoga bermanfaat!
 
 6. Bagas Priambodo                        26050120140143 B
 
-7. Priska E. Lumban Batu
+7. Priska E. Lumban Batu 26050120120031 A
 
 8. Laurentia Levina Pramestanti           26050120140126 B
 
