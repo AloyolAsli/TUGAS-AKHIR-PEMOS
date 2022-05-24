@@ -444,7 +444,7 @@ from siphon.simplewebservice.ndbc import NDBC
 ```
 # Get a pandas data frame of all of the observations, meteorological data is the default
 # observation set to query.
-df = NDBC.realtime_observations('41109') #Station ID
+df = NDBC.realtime_observations('41009') #Station ID
 df.head()
 ```
 ```
