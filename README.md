@@ -480,7 +480,10 @@ plt.show()
 ```
 
 **PEMBAHASAN:**
-
+```
+Studi Kasus: Stasiun Buoy 41009
+```
+Stasiun buoy 41009 terletak pada koordinat 28.508 N 80.185 W (28°30'27" N 80°11'6" W). Berdasarkan koordinat tersebut, jika dilihat menggunakan software Google Earth Pro, stasiun buoy 41009 berada sejauh kurang lebih 35,88 km di timur Brevard County, Florida, Amerika Serikat. 
 
 ## **UCAPAN TERIMA KASIH**
 Demikian _repository_ Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Apabila ada kesalahan dalam penulisan kami memohon maaf. Kami juga berterima kasih kepada Kakak-Kakak Asisten yang telah mendampingi dan membimbing serta teman-teman oseanografi 2020 yang telah bekerja keras selama berjalannya Praktikum Pemodelan Oseanografi. 
