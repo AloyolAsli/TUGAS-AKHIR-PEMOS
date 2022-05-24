@@ -32,7 +32,11 @@ Terima kasih dan semoga bermanfaat!
 
 `
 import matplotlib.pyplot as plt
+`
+`
 import numpy as np
+`
+`
 import sys
 `
 ```
@@ -72,7 +76,8 @@ dt_count = 1/((abs(u)/(q*dx))+(abs(v)/(q*dy))+(2*ad/(q*dx*2))+(2*ad/(q*dy*2)))
 ```
 
 **Pembuatan Grafik**
-Menentukan jumlah dan arah jalan polutan serta banyaknya _time series _
+
+* Menentukan jumlah dan arah jalan polutan serta banyaknya _time series_
 ```
 Nx = int(x/dx) #number of mesh in x direction
 Ny = int(y/dy) #number of mesh in y direction
@@ -92,7 +97,7 @@ ay = ad*dt/dy**2
 
 **Memasukkan Syarat Kestabilan CFL**
 
-Ini dimasukkan untuk menentukan seberapa besar nilai stabilitas dari model yang dibangun
+* Ini dimasukkan untuk menentukan seberapa besar nilai stabilitas dari model yang dibangun
 ```
 cfl = (2*ax + 2*ay + abs(lx) + abs(ly)) #Syarat Kestabilan CFL
 ```
