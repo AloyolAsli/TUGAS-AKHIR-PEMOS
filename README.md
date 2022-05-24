@@ -310,6 +310,13 @@ Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
 
 `plt.show()`
 
+
+
+
+**PEMBAHASAN:**
+
+
+
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
 "LANGKAH PENGERJAAN"
 
