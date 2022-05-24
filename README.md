@@ -329,7 +329,11 @@ Hasil model hidrodinamika 1 D pada grafik menunjukkan perubahan kecepatan arus d
 
 **c. Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid**
 
+![3](https://user-images.githubusercontent.com/105528467/170019607-7217ee12-e0e3-487a-9cd0-1bbd6b4fa933.png)
 
+**d. Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid**
+
+![4](https://user-images.githubusercontent.com/105528467/170019636-b3f6feba-1834-4cc9-8a26-1d428e0bf12b.png)
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
 "LANGKAH PENGERJAAN"
