@@ -53,7 +53,6 @@ D = koefisien difusi (cm2/det)
 C = konsentrasi (g/cm3)x = jarak (cm)
 Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
 
-
 •	Hukum KeDua DIFUSI FICK
 Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, sementara fluks atau jumlah zat yang berdifusi berubah seiring jarak, ΔJ/ΔZ, dalam arah Z, atau
 𝑑𝑐 𝑑𝑡 = 𝑑𝐽 𝑑𝑍
@@ -62,6 +61,7 @@ Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, se
 •	Hukum DIFUSI FICK
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
+
 Soal
 Sebuah larutan berwarna ditempatkan dalam lapisan tipis di tengah sel silinder yang panjang. Jika difusi dibiarkan terus selama 1 jam dua puluh menit, hitunglah konsentrasi larutan warna dalam mol dm-3 pada jarak 1 cm dari posisi asli dari lapisan tipis dengan asumsi bahwa difusi koefisien pewarna adalah 0.79x 10-9 m2 s-1 dan konsentrasi awal zat warna per satuan luas adalah 10 mol m-2.
 Jawab:
