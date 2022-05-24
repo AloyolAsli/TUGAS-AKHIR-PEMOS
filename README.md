@@ -47,6 +47,8 @@ Proses difusi dalam sistem farmasetik:
 
 𝐽= 𝑑𝑀 𝑆.𝑑𝑡
 
+Keterangan:
+
 J = fluks (g/cm2det)
 
 M = jumlah massa (g atau mol)
@@ -60,7 +62,10 @@ Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
 
 𝐽 = −𝐷 𝑑𝑐 𝑑𝑧
 
+Keterangan:
+
 D = koefisien difusi (cm2/det)
+
 C = konsentrasi (g/cm3)x = jarak (cm)
 
 Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
