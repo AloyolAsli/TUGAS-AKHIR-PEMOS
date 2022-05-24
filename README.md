@@ -24,6 +24,7 @@ Terima kasih dan semoga bermanfaat!
 
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI 📌
    Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. Difusi adalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah. Biasanya permukaan laut lebih panas dari udara di atasnya sehingga terdapat sejumlah panas yang hilang dari laut melalui proses konduksi. Kehilangan tersebut relatif kecil dibanding total panas lautan sehingga pengaruhnya dapat diabaikan, kecuali untuk pencampuran konvektif oleh angin yang memindahkan udara hangat dari permukaan laut. Dengan kata lain luas sebaran polutan panas dari kanal pendingin tergantung pada beberapa faktor yaitu volume air limbah, temperatur air limbah, temperatur ambien air laut dan sirkulasi air laut di lokasi masuknya air limbah ke laut ( Cahyana, 2011).
+   
 •	Jenis-Jenis Difusi
 Difusi dibedakan menjadi dua, yaitu difusi biasa dan khusus. Inilah uraiannya:
 1)	Difusi Biasa
@@ -47,6 +48,7 @@ J = fluks (g/cm2det)
 M = jumlah massa (g atau mol)
 S = luas permukaan (cm2)
 t = waktu (detik)
+
 •	Hukum Pertama DIFUSI FICK
 Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
 𝐽 = −𝐷 𝑑𝑐 𝑑𝑧
@@ -59,6 +61,7 @@ Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, se
 𝑑𝑐 𝑑𝑡 = 𝑑𝐽 𝑑𝑍
 𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 𝑑𝑍 𝑑𝑐 𝑑𝑍
 𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 2 𝑐 𝑑 𝑍 2
+
 •	Hukum DIFUSI FICK
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
