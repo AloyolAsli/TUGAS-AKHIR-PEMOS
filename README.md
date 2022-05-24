@@ -298,7 +298,7 @@ for i in range(1, 16):
           Perubahan Elevasi Muka Air Dalam Waktu Tertentu di Sepanjang Grid''')
   ax3.grid()
 ```
-###Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
+Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
 
 `plt.show()`
 
