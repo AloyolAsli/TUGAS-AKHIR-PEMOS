@@ -6,7 +6,7 @@ Terima kasih dan semoga bermanfaat!
 # ANGGOTA KELOMPOK 1
 1. Aloysius Dimas Sanjaya Saliyo          26050120130056 A
 
-2. Fairus Jamil Rizqullah
+2. Fairus Jamil Rizqullah                 26050120140103 B
 
 3. Dafina Amadita Shaquilla               26050120140168 A
 
