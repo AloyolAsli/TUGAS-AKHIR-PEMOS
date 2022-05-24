@@ -497,5 +497,8 @@ Stasiun buoy 41009 terletak pada koordinat 28.508 N 80.185 W (28°30'27" N 80°1
 
 Pada grafik yang telah disediakan oleh NOAA’s NDBC juga menunjukkan adanya anomali, di mana suhu air laut dan kecepatan angin pada tanggal 6 Mei tinggi, sedangkan tekanan atmosfernya rendah. Hal tersebut menunjukkan bahwa hasil model tidak jauh berbeda dengan data yang tersedia pada website NOAA’s NDBC.
 
+![Grafik Suhu Air Laut 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170068616-2088e113-3a32-43af-826b-6986677ba361.png)
+
+
 ## **UCAPAN TERIMA KASIH**
 Demikian _repository_ Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Apabila ada kesalahan dalam penulisan kami memohon maaf. Kami juga berterima kasih kepada Kakak-Kakak Asisten yang telah mendampingi dan membimbing serta teman-teman oseanografi 2020 yang telah bekerja keras selama berjalannya Praktikum Pemodelan Oseanografi. 
