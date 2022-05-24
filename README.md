@@ -23,7 +23,7 @@ Terima kasih dan semoga bermanfaat!
 
 
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI 📌
-   Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. Difusi adalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah. Biasanya permukaan laut lebih panas dari udara di atasnya sehingga terdapat sejumlah panas yang hilang dari laut melalui proses konduksi. Kehilangan tersebut relatif kecil dibanding total panas lautan sehingga pengaruhnya dapat diabaikan, kecuali untuk pencampuran konvektif oleh angin yang memindahkan udara hangat dari permukaan laut. Dengan kata lain luas sebaran polutan panas dari kanal pendingin tergantung pada beberapa faktor yaitu volume air limbah, temperatur air limbah, temperatur ambien air laut dan sirkulasi air laut di lokasi masuknya air limbah ke laut ( Cahyana, 2011).
+Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. Difusi adalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah. Biasanya permukaan laut lebih panas dari udara di atasnya sehingga terdapat sejumlah panas yang hilang dari laut melalui proses konduksi. Kehilangan tersebut relatif kecil dibanding total panas lautan sehingga pengaruhnya dapat diabaikan, kecuali untuk pencampuran konvektif oleh angin yang memindahkan udara hangat dari permukaan laut. Dengan kata lain luas sebaran polutan panas dari kanal pendingin tergantung pada beberapa faktor yaitu volume air limbah, temperatur air limbah, temperatur ambien air laut dan sirkulasi air laut di lokasi masuknya air limbah ke laut (Cahyana, 2011).
    
 •	Jenis-Jenis Difusi
 Difusi dibedakan menjadi dua, yaitu difusi biasa dan khusus. Inilah uraiannya:
@@ -65,6 +65,12 @@ Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, se
 •	Hukum DIFUSI FICK
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
+Untuk peristiwa difusi, Adolph Fick mengambil analogi yang menyatakan bahwa: 
+“Pada arah tertentu, massa dari suatu bahan terlarut yang melewati suatu luasan tertentu tiap unit waktu adalah sebanding dengan gradient konsentrasi bahan terlarut pada arah tersebut”
+Untuk proses difusi satu dimensi, hukum Fick menyatakan persamaan matematika sebagai berikut: 
+q=-D ∂c/∂x
+Dengan q adalah fluks massa bahan terlarut, C konsentrasi bahan terlarut, D koefisien difusi, tanda negative merupakan penanda bahwa bahan terlarut terangku dari tempat yang berkonsentrasi tinggi ke tempat yang berkonsentrasi rendah D merupakan koefisien difusi atau difusi molekuler. Hukum Fick merupakan pernyataan yang mengkorelasikan fluks suatu massa dengan gradient konsentrasi. 
+
 
 Soal
 Sebuah larutan berwarna ditempatkan dalam lapisan tipis di tengah sel silinder yang panjang. Jika difusi dibiarkan terus selama 1 jam dua puluh menit, hitunglah konsentrasi larutan warna dalam mol dm-3 pada jarak 1 cm dari posisi asli dari lapisan tipis dengan asumsi bahwa difusi koefisien pewarna adalah 0.79x 10-9 m2 s-1 dan konsentrasi awal zat warna per satuan luas adalah 10 mol m-2.
@@ -77,6 +83,13 @@ Sehingga
 = 2,807 x 10-3 mol/dm3
 = 0, mol/dm3
 
+Persamaan ini digunakan pada aliran steady yang artinya karakteristik aliran air atau koefisien atau kecepatan alitan dan difusi pada domain tidak berubah terhadap waktu. Koefisien u dan v tidak bernilai konstan tetapi bergantung pada koordinat atau u=u(x,y) dan v=v(x,y). Sedangkan koefisien difusinya bernilai konstan. Pemodelan difusi dapat ditemukan dalam kehidupan sehari-hari seperti pencemaran atau kebakaran hutan. Persamaan difusi dapat dirumuskan sebagai berikut: 
+∂F/∂t=A_D  (∂^2 F)/(∂x^2 )
+
+Dekritisasi 1D proses difusi:
+F_m^(n+1)=F_m^n+A_D  ∆t/(∆x^2 ) [F_m^(n+1)-2F_m^n+F_(m-1)^n ]
+
+Dekritasi merupakan suatu metode yang digunakan untuk mencari solusi persamaan secara numerik dari suatu persamaan matematika sehingga dapat dikatakan baik dalam dimensi ruang atau pun waktu. 
 
 
 
