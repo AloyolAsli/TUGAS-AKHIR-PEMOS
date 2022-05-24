@@ -33,9 +33,11 @@ Terima kasih dan semoga bermanfaat!
 `
 import matplotlib.pyplot as plt
 `
+
 `
 import numpy as np
 `
+
 `
 import sys
 `
@@ -67,7 +69,7 @@ py = 138 #Polutan pada grid y
 Ic = 568 #Jumlah Polutan
 ```
 
-**Perhitungan Energi (U) dan Kecepatan (V) Polutan**
+**Perhitungan Energi (U) dan Kecepatan (V) Persebaran Polutan**
 ```
 #Perhitungan U dan V
 u = C * np.sin(theta*np.pi/180)
@@ -77,7 +79,7 @@ dt_count = 1/((abs(u)/(q*dx))+(abs(v)/(q*dy))+(2*ad/(q*dx*2))+(2*ad/(q*dy*2)))
 
 **Pembuatan Grafik**
 
-* Menentukan jumlah dan arah jalan polutan serta banyaknya _time series_
+* Menentukan jumlah dan arah persebaran polutan serta banyaknya _time series_
 ```
 Nx = int(x/dx) #number of mesh in x direction
 Ny = int(y/dy) #number of mesh in y direction
@@ -138,7 +140,7 @@ for n in range (0, Nt):
  F[n+1,:,Nx+1] = 0 #BC Kanan
   ```
   
- **Hasil Pemodelan**
+ **Hasil Pemodelan Output Gambar**
   ```
   #Output Gambar
  plt.clf()
