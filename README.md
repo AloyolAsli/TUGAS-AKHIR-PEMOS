@@ -31,6 +31,47 @@ Difusi dibedakan menjadi dua, yaitu difusi biasa dan khusus. Inilah uraiannya:
 Sel ingin mengambil nutrisi, atau terjadi pada molekul/partikel hydropobhic (tidak berpolar). Partikel akan langsung berdifusi tanpa memerlukan energi, dan bisa melewati membran langsung.
 2)	Difusi Khusus
 Terjadi di sel yang ingin mengambil nutrisi, terjadi di partikel yang punya polar/ion (hydrophilic). Diperlukan protein yang khusus agar partikel bisa melewati membran.
+•	Faktor Mempengaruhi Difusi
+1.	Suhu, makin tinggi difusi makin cepat
+2.	BM makin besar difusi makin lambat
+3.	Kelarutan dalam medium, makin besar difusi makin cepat
+4.	Perbedaan Konsentrasi, makin besar perbedaan konsentrasi antara dua bagian, makin besar proses difusi yang terjadi.
+5.	Jarak tempat berlangsungnya difusi, makin dekat jarak tempat terjadinya difusi, makin cepat proses difusi yang terjadi.
+6.	Area Tempat berlangsungnya Difusi, makin luas area difusi, makin cepat proses difusi.
+•	Proses Difusi
+Proses difusi merupakan perpindahan molekul larutan berkonsentrasi tinggi menuju larutan berkonsentrasi rendah tanpa melalui selaput membran. Contoh yang sederhana adalah pemberian gula pada cairan teh tawar. Lambat laun cairan menjadi manis. Contoh lain adalah uap air dari cerek yang berdifusi dalam udara, dimana pada masing-masing zat, kecepatan difusi berbeda-beda.
+Proses difusi dalam sistem farmasetik:
+𝐽= 𝑑𝑀 𝑆.𝑑𝑡
+J = fluks (g/cm2det)
+M = jumlah massa (g atau mol)
+S = luas permukaan (cm2)
+t = waktu (detik)
+•	Hukum Pertama DIFUSI FICK
+Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
+𝐽 = −𝐷 𝑑𝑐 𝑑𝑧
+D = koefisien difusi (cm2/det)
+C = konsentrasi (g/cm3)x = jarak (cm)
+Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
+
+
+•	Hukum KeDua DIFUSI FICK
+Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, sementara fluks atau jumlah zat yang berdifusi berubah seiring jarak, ΔJ/ΔZ, dalam arah Z, atau
+𝑑𝑐 𝑑𝑡 = 𝑑𝐽 𝑑𝑍
+𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 𝑑𝑍 𝑑𝑐 𝑑𝑍
+𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 2 𝑐 𝑑 𝑍 2
+•	Hukum DIFUSI FICK
+Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
+𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
+Soal
+Sebuah larutan berwarna ditempatkan dalam lapisan tipis di tengah sel silinder yang panjang. Jika difusi dibiarkan terus selama 1 jam dua puluh menit, hitunglah konsentrasi larutan warna dalam mol dm-3 pada jarak 1 cm dari posisi asli dari lapisan tipis dengan asumsi bahwa difusi koefisien pewarna adalah 0.79x 10-9 m2 s-1 dan konsentrasi awal zat warna per satuan luas adalah 10 mol m-2.
+Jawab:
+𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
+Z = 1 x 10-2 m, t = 4800 s
+Sehingga
+𝐶 𝑍,𝑡 = 𝑥 3,142 𝑥 0,79 𝑥 10 −9 𝑥 𝑒 − ( −4 4𝑥 0, −9 𝑥 4800 )
+= 2,807 mol/m3
+= 2,807 x 10-3 mol/dm3
+= 0, mol/dm3
 
 
 
