@@ -315,6 +315,10 @@ Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
 
 **PEMBAHASAN:**
 
+**HASIL RUNNING SCRIPT PEMODELAN HIDRODINAMIKA 1 DIMENSI**
+
+**a. Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu**
+
 
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
