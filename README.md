@@ -48,8 +48,11 @@ Proses difusi dalam sistem farmasetik:
 𝐽= 𝑑𝑀 𝑆.𝑑𝑡
 
 J = fluks (g/cm2det)
+
 M = jumlah massa (g atau mol)
+
 S = luas permukaan (cm2)
+
 t = waktu (detik)
 
 •	Hukum Pertama Difusi Fick
@@ -59,6 +62,7 @@ Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
 
 D = koefisien difusi (cm2/det)
 C = konsentrasi (g/cm3)x = jarak (cm)
+
 Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
 
 •	Hukum Kedua Difusi Fick
@@ -72,7 +76,8 @@ Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian
 
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
 
-Untuk peristiwa difusi, Adolph Fick mengambil analogi yang menyatakan bahwa: 
+Untuk peristiwa difusi, Adolph Fick mengambil analogi yang menyatakan bahwa:
+
 “Pada arah tertentu, massa dari suatu bahan terlarut yang melewati suatu luasan tertentu tiap unit waktu adalah sebanding dengan gradient konsentrasi bahan terlarut pada arah tersebut”
 
 Untuk proses difusi satu dimensi, hukum Fick menyatakan persamaan matematika sebagai berikut: 
