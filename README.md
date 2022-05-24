@@ -23,6 +23,7 @@ Terima kasih dan semoga bermanfaat!
 
 
 # MODUL 1. PERSAMAAN ADVEKSI-DIFUSI 1 DIMENSI 📌
+Perubahan temperature di badan air disebabkan oleh proses fisis. Proses fisis tersebut berupa adveksi difusi, konduksi, dan konveksi.Persebaran panas dapat dikaji dengan menggunakan pendekatan pemodelan yang dioperasikan melalui komputer. 
 
 
 
