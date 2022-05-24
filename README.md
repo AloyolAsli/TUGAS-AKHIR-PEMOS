@@ -65,15 +65,21 @@ Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, se
 •	Hukum DIFUSI FICK
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
+
 Untuk peristiwa difusi, Adolph Fick mengambil analogi yang menyatakan bahwa: 
 “Pada arah tertentu, massa dari suatu bahan terlarut yang melewati suatu luasan tertentu tiap unit waktu adalah sebanding dengan gradient konsentrasi bahan terlarut pada arah tersebut”
+
 Untuk proses difusi satu dimensi, hukum Fick menyatakan persamaan matematika sebagai berikut: 
+
 q=-D ∂c/∂x
+
 Dengan q adalah fluks massa bahan terlarut, C konsentrasi bahan terlarut, D koefisien difusi, tanda negative merupakan penanda bahwa bahan terlarut terangku dari tempat yang berkonsentrasi tinggi ke tempat yang berkonsentrasi rendah D merupakan koefisien difusi atau difusi molekuler. Hukum Fick merupakan pernyataan yang mengkorelasikan fluks suatu massa dengan gradient konsentrasi. 
 
 
 Soal
+
 Sebuah larutan berwarna ditempatkan dalam lapisan tipis di tengah sel silinder yang panjang. Jika difusi dibiarkan terus selama 1 jam dua puluh menit, hitunglah konsentrasi larutan warna dalam mol dm-3 pada jarak 1 cm dari posisi asli dari lapisan tipis dengan asumsi bahwa difusi koefisien pewarna adalah 0.79x 10-9 m2 s-1 dan konsentrasi awal zat warna per satuan luas adalah 10 mol m-2.
+
 Jawab:
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
 Z = 1 x 10-2 m, t = 4800 s
