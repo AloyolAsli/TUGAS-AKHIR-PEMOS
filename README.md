@@ -38,6 +38,7 @@ Terjadi di sel yang ingin mengambil nutrisi, terjadi di partikel yang punya pola
 4.	Perbedaan Konsentrasi, makin besar perbedaan konsentrasi antara dua bagian, makin besar proses difusi yang terjadi.
 5.	Jarak tempat berlangsungnya difusi, makin dekat jarak tempat terjadinya difusi, makin cepat proses difusi yang terjadi.
 6.	Area Tempat berlangsungnya Difusi, makin luas area difusi, makin cepat proses difusi.
+
 •	Proses Difusi
 Proses difusi merupakan perpindahan molekul larutan berkonsentrasi tinggi menuju larutan berkonsentrasi rendah tanpa melalui selaput membran. Contoh yang sederhana adalah pemberian gula pada cairan teh tawar. Lambat laun cairan menjadi manis. Contoh lain adalah uap air dari cerek yang berdifusi dalam udara, dimana pada masing-masing zat, kecepatan difusi berbeda-beda.
 Proses difusi dalam sistem farmasetik:
