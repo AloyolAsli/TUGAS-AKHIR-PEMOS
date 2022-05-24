@@ -323,6 +323,12 @@ Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D
 
 Hasil model hidrodinamika 1 D pada grafik menunjukkan perubahan kecepatan arus dalam grid (n=1 sampai n=15) dalam kurun waktu 0 sekon sampai 175 sekon. Pada grafik, garis awalnya grafiknya halus dan teratur serta sederhana. Perubahan kecepatan dalam grid atau garis yang halus dan teratur tersebut menunjukkan nilai perubahan kecepatan arus berkisar -0,5 meter sampai 0,5 meter. Hal tersebut dikarenakan perhitungannya masih menggunakan parameter yang ada dicoding bagian awal yang nilainya kecil. Akan tetapi, seiring berjalannya waktu ke arah sumbu-x dalam kurun waktu sekitar 176 sekon sampai 600 sekon ditampilkan perubahan kecepatan arus dalam grid atau garis yang semakin kasar dan tidak teratur serta rumit yang nilai kecepatan arusnya berkisar antara -1,5 meter sampai 1,5 meter. Hal ini disebabkan oleh nilai dari setiap parameter-parameter yang digunakan semakin besar dan perhitungannya semakin kompleks dan rumit. Walaupun demikian, nilai yang rumit dan kompleks tersebut menunjukkan bahwa perhitungan benar dan hasil perhitungan semakin mendekati keadaan sebenarnya ditempat terjadinya perubahan kecepatan arus tersebut.
 
+**b. Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu**
+
+![2](https://user-images.githubusercontent.com/105528467/170019555-b1eefb88-fab9-4832-aaaf-792da59a6a1b.png)
+
+**c. Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid**
+
 
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
