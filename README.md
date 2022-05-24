@@ -49,20 +49,20 @@ M = jumlah massa (g atau mol)
 S = luas permukaan (cm2)
 t = waktu (detik)
 
-•	Hukum Pertama DIFUSI FICK
+•	Hukum Pertama Difusi Fick
 Fluks, berbanding lurus dengan gradien konsentrasi, dc/dZ
 𝐽 = −𝐷 𝑑𝑐 𝑑𝑧
 D = koefisien difusi (cm2/det)
 C = konsentrasi (g/cm3)x = jarak (cm)
 Tanda negatif pada persamaan menandakan bahwa difusi terjadi dalam arah yang berlawanan dengan kenaikan konsentrasi (arah x positif).
 
-•	Hukum KeDua DIFUSI FICK
+•	Hukum Kedua Difusi Fick
 Konsentrasi difusan dalam elemen volume berubah seiring waktu, yaitu ΔC/Δt, sementara fluks atau jumlah zat yang berdifusi berubah seiring jarak, ΔJ/ΔZ, dalam arah Z, atau
 𝑑𝑐 𝑑𝑡 = 𝑑𝐽 𝑑𝑍
 𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 𝑑𝑍 𝑑𝑐 𝑑𝑍
 𝑑𝑐 𝑑𝑧 = −𝐷 𝑑 2 𝑐 𝑑 𝑍 2
 
-•	Hukum DIFUSI FICK
+•	Hukum Difusi Fick
 Dalam hukum Fick ketika sebuah lapisan tipis dari sebuah diffusant berada bagian ditengah dari sebuah cell silender yang panjang dengan waktu pada jarak Z dari pusat maka
 𝐶 𝑍,𝑡 = η 𝑜 2𝜋𝐷𝑡 𝑒 − ( 𝑍 2 4𝐷𝑡 )
 
