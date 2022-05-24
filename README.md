@@ -505,6 +505,10 @@ Pada grafik yang telah disediakan oleh NOAA’s NDBC juga menunjukkan adanya ano
 
 ![Grafik Kecepatan Angin 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170069001-ff47a3c3-95f1-41e2-8759-537d338d6305.png)
 
+**Grafik Tekanan Atmosfer 5 Hari Terakhir**
+
+![Grafik Tekanan Atmosfer 5 Hari Terakhir](https://user-images.githubusercontent.com/106019440/170069387-c7042ba8-7b9a-4743-931c-320ae8a78697.png)
+
 
 ## **UCAPAN TERIMA KASIH**
 Demikian _repository_ Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Apabila ada kesalahan dalam penulisan kami memohon maaf. Kami juga berterima kasih kepada Kakak-Kakak Asisten yang telah mendampingi dan membimbing serta teman-teman oseanografi 2020 yang telah bekerja keras selama berjalannya Praktikum Pemodelan Oseanografi. 
