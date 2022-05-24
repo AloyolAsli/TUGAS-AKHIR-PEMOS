@@ -333,6 +333,8 @@ Hasil model hidrodinamika 1 D pada grafik ini sebenarnya hampir sama dengan sebe
 
 ![3](https://user-images.githubusercontent.com/105528467/170019607-7217ee12-e0e3-487a-9cd0-1bbd6b4fa933.png)
 
+Hasil model hidrodinamika 1 D pada grafik menunjukkan bahwa garis grafik di awal halus dan semakin lama ke arah sumbu-x semakin tidar teratur. Pada grafik ditampilkan pada grid sekitar 0 - 43 dengan kisaran waktu t=1 sampai dengan t=15 memiliki nilai kecepatan arus dalam grid berkisar -0.4 meter sampai 0.4 m. Sedangkan pada grid sekitar 44 – 50 dengan waktu yang sama dengan grid 0 - 43 memiliki kecepatan arus berkisar antara -0,2 meter sampai 0,4 meter.  Hal tersebut disebabkan terjadinya perubahan kecepatan arus terjadi dalam satu waktu atau waktu yang sama tetapi dalam ruang /grid yang berbeda sehingga mempengaruhi nilai dari parameter-parameter perhitungan. Grid paling depan menerima konsekuensi arus dan elevasi lebih dahulu disusul dengan grid-grid lainnya. 
+
 **d. Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid**
 
 ![4](https://user-images.githubusercontent.com/105528467/170019636-b3f6feba-1834-4cc9-8a26-1d428e0bf12b.png)
