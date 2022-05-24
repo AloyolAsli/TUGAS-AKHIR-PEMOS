@@ -251,6 +251,8 @@ Menurut Alman, (2020). Persamaan matematika yang memodelkan fenomena gejala alam
 
 
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI 📌
+Pada contoh script Pemodelan Hidrodinamika 1D ini merupakan penyelesaian hitungan guna mengetahui bagaimana hubungan elevasi muka air laut dan juga kecepatan arus terhadap ruang dan waktu. Pada script ini menggunakan bahasa pemrograman pyhton dan menggunakan library Matplotlib yang berguna menampilkan visualisasi hasil code dan juga library Numpy untuk perhitungan scientific
+
 **Langkah Pengerjaan**
 
 ```
