@@ -30,11 +30,11 @@ Terima kasih dan semoga bermanfaat!
 # MODUL 2. PERSAMAAN ADVEKSI-DIFUSI 2 DIMENSI 📌
 **LANGKAH PENGERJAAN:**
 
-```
+`
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
-```
+`
 ```
 def percentage(part, whole):
  percentage = 100 * float(part)/float(whole)
@@ -82,7 +82,7 @@ px1 = int(px/dx)
 py1 = int(py/dy)
 ```
 
-**Menyederhanakan Fungsi**
+**Menyederhanakan Fungsi Persamaan Adveksi Difusi 2 Dimensi**
 ```
 lx = u*dt/dx
 ly = v*dt/dy
@@ -91,6 +91,7 @@ ay = ad*dt/dy**2
 ```
 
 **Memasukkan Syarat Kestabilan CFL**
+
 Ini dimasukkan untuk menentukan seberapa besar nilai stabilitas dari model yang dibangun
 ```
 cfl = (2*ax + 2*ay + abs(lx) + abs(ly)) #Syarat Kestabilan CFL
