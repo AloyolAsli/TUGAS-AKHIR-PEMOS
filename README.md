@@ -190,6 +190,29 @@ Menurut Alman, (2020). Persamaan matematika yang memodelkan fenomena gejala alam
 
 
 # MODUL 3. MODEL HIDRODINAMIKA 1 DIMENSI 📌
+**Langkah Pengerjaan**
+
+**Penginputan Nilai Parameter**
+'''
+#Proses Awal
+p = 5000         
+T = 1200         
+A = 0.5         
+D = 15           
+dt = 2
+dx = 100
+To = 300         
+
+#Parameter Lanjutan
+g = 9.8   
+pi = np.pi 
+C = np.sqrt(g*D) 
+s = 2*pi/To      
+L = C*To         
+k = 2*pi/L       
+Mmax = int(p//dx)
+Nmax = int(T//dt)`
+''' 
 
 # MODUL 4. MODEL HIDRODINAMIKA 2 DIMENSI 📌
 "LANGKAH PENGERJAAN"
